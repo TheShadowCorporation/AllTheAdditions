@@ -18,6 +18,7 @@ public class ModCreativeTabs {
                     .title(Component.translatable("creativetab.all_the_additions"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.COPPER_COIN.get());
+                        pOutput.accept(ModItems.IRON_COIN.get());
                     })
                     .build());
 
