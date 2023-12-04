@@ -18,6 +18,8 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_COIN = ITEMS.register("iron_coin",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin",
+            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -19,6 +19,7 @@ public class ModCreativeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.COPPER_COIN.get());
                         pOutput.accept(ModItems.IRON_COIN.get());
+                        pOutput.accept(ModItems.GOLD_COIN.get());
                     })
                     .build());
 
